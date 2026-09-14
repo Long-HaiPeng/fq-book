@@ -10,7 +10,7 @@
 >   * GFW-Report 针对 WireGuard 协议封锁的学术报告：[How China Blocks WireGuard (GFW Report)](https://gfw.report/blog/gfw_wireguard/)
 >   * 社区技术探讨：[V2EX - 关于运营商对 WireGuard / UDP 协议的封锁与 QoS 现状](https://www.v2ex.com/t/790589)
 > * **现代替代方案**：
->   * 想要实现全局虚拟网卡接管，请阅读本书：[现代内核底座与 TUN 模式](/modern/core-and-tun)
+>   * 想要实现全局虚拟网卡接管，请阅读本书：[现代内核底座与 TUN 模式](/abc/core-and-tun) 与 [现代客户端配置](/proxy/modern-clients)
 >   * 若仍想使用 WireGuard，必须在外层包裹混淆层（如 [AmneziaWG](https://github.com/amnezia-vpn/amneziawg-windows) 或 Warp 混淆）。
 
 ## tunsafe

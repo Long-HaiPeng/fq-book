@@ -10,8 +10,8 @@
 >   * V2Ray 官方关于 VMess 漏洞与改进的公告：[关于 VMess 协议的 AEAD 加密更新说明](https://www.v2fly.org/config/protocols/vmess.html)
 >   * 新一代 VLESS 协议规范：[Project X - VLESS 协议设计哲学](https://xtls.github.io/development/protocols/vless.html)
 > * **现代替代方案**：
->   * 推荐直接阅读本书：[VLESS 与 XTLS-Reality 原理剖析](/modern/reality)
->   * 现代客户端推荐：[Clash Verge Rev 官方仓库](https://github.com/clash-verge-rev/clash-verge-rev) ｜ [Sing-box 官方指南](https://sing-box.sagernet.org/)
+>   * 推荐直接阅读本书：[VLESS 与 XTLS-Reality 原理剖析](/abc/reality)
+>   * 现代客户端配置：[现代客户端配置指南 (Clash Verge Rev / Sing-box)](/proxy/modern-clients)
 
 !> 若需了解为何使用额外的代理插件以及配置，浏览器才能访问互联网，还请[点击跳转链接](/abc/connection)
 

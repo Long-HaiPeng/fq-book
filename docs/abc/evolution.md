@@ -78,6 +78,7 @@
 
 > [!NOTE] 学习指引
 > 理解了代际演进逻辑后，请继续阅读：
-> * 深入理解借壳伪装：[VLESS 与 XTLS-Reality 原理剖析](/modern/reality)
-> * 深入理解弱网高速传输：[基于 UDP/QUIC 的 Hysteria 2 与 TUIC](/modern/hysteria2-tuic)
-> * 现代内核架构与系统接管：[现代内核底座与 TUN 模式](/modern/core-and-tun)
+> * 深入理解借壳伪装：[VLESS 与 XTLS-Reality 原理剖析](/abc/reality)
+> * 深入理解弱网高速传输：[基于 UDP/QUIC 的 Hysteria 2 与 TUIC](/abc/hysteria2-tuic)
+> * 现代内核架构与系统接管：[现代内核底座与 TUN 模式](/abc/core-and-tun)
+> * 实操上手：[现代节点获取与自建落地指南](/method/modern-method) 与 [现代客户端配置](/proxy/modern-clients)

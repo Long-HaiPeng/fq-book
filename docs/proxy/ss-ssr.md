@@ -10,7 +10,8 @@
 >   * 顶级安全学术顶会 USENIX Security 论文：[How China Detects and Blocks Shadowsocks (USENIX Security '20)](https://gfw.report/publications/usenixsecurity20/zh/)
 >   * GFW-Report 深度技术复盘：[深入分析中国防火长城对 Shadowsocks 的检测与阻断机制](https://gfw.report/blog/gfw_shadowsocks/)
 > * **现代替代方案与参考**：
->   * 推荐直接阅读本书新章节：[现代协议演进与抗审查技术](/modern/evolution) 以及 [VLESS 与 XTLS-Reality](/modern/reality)
+>   * 推荐直接阅读本书新章节：[现代协议演进与抗审查技术](/abc/evolution) 以及 [VLESS 与 XTLS-Reality](/abc/reality)
+>   * 现代实操参考：[现代节点自建指南](/method/modern-method) 与 [现代客户端配置](/proxy/modern-clients)
 >   * 现代核心工具官网：[Sing-box 官方文档](https://sing-box.sagernet.org/) ｜ [Project X / Xray 官方文档](https://xtls.github.io/)
 
 !>  简单来说代理与VPN的最大区别就在于代理不会虚拟一块独立的网卡<br>
