@@ -1,5 +1,9 @@
 # heroku搭建ss分享站点
 
+> [!WARNING]
+> **【历史方案 · 已经永久失效】**
+> * **现状**：因 Heroku 取消免费计划及 OpenShift 早期平台架构改版，早期在免费 PaaS 上部署节点聚合与分享站点的方案已失效，请参阅 [Heroku Free Plans Deprecation](https://blog.heroku.com/next-chapter)。
+
 fork！github项目：
 
 * [ShadowSocks-Share](https://github.com/zc-zh-001/ShadowSocks-Share)

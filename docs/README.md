@@ -13,6 +13,9 @@ VPN、Proxy不时也会出现新应用，操作方式多数基本也大同小异
 * 本书面向海外华人用户且仅供科研与学习，切勿用于其他用途
 * 中国居民请自觉关闭本书并24小时内删掉与此相关的所有内容，否则出现一切后果本书作者概不负责
 
+> [!TIP] 2022~2025 现代技术导读
+> 本书已迭代加入 **[现代技术精选 (2022-2025)](modern/evolution)** 专章，涵盖 VLESS-Reality、Hysteria 2、Sing-box/Mihomo 内核与 TUN 网卡接管；书中标记为 **【历史技术归档 · 已淘汰】** 的老旧协议章节（如 SS/SSR、早期 VMess、原生 VPN 等）新读者可直接略过。
+
 此书献给热爱互联网的人们，以上...
 
 ***[About Me（关于作者）](https://hoochanlon.github.io/hoochanlon/hcl/index.html)***

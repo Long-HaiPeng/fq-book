@@ -1,5 +1,18 @@
 # v2ray
 
+> [!WARNING]
+> **【历史技术归档 · 早期方案】**
+> * **技术现状**：本章介绍的是 2018 年代早期基于 SwitchyOmega 插件配合 V2Ray 原生 VMess 协议的客户端用法。当前该架构已全面退役。
+> * **为何淘汰与演进（技术根因）**：
+>   1. **VMess 协议旧设计缺陷**：早期 VMess 头部使用 MD5 认证信息，在 2020 年被白帽团队证实存在十六进制暴力碰撞和探测漏洞，官方随后弃用了 VMess 的早期认证机制，并主推全新设计的无开销协议 **VLESS**。
+>   2. **传统 Web 伪装（Nginx + WS + TLS）维护成本过高**：自建个人域名、申请证书、伪装建站不仅步骤繁琐且证书容易过期；更致命的是个人小域名在 GFW 的全维流量行为画像下极易暴露（一个几无人访问的域名全天保持大流量长连接）。
+> * **权威研究与官方参考**：
+>   * V2Ray 官方关于 VMess 漏洞与改进的公告：[关于 VMess 协议的 AEAD 加密更新说明](https://www.v2fly.org/config/protocols/vmess.html)
+>   * 新一代 VLESS 协议规范：[Project X - VLESS 协议设计哲学](https://xtls.github.io/development/protocols/vless.html)
+> * **现代替代方案**：
+>   * 推荐直接阅读本书：[VLESS 与 XTLS-Reality 原理剖析](/modern/reality)
+>   * 现代客户端推荐：[Clash Verge Rev 官方仓库](https://github.com/clash-verge-rev/clash-verge-rev) ｜ [Sing-box 官方指南](https://sing-box.sagernet.org/)
+
 !> 若需了解为何使用额外的代理插件以及配置，浏览器才能访问互联网，还请[点击跳转链接](/abc/connection)
 
 ## CLI

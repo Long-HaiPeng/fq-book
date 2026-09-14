@@ -1,6 +1,12 @@
 * 关于本书
   * [前言](README.md)
 
+* 现代技术精选 (2022-2025)
+  * [代际演进与对抗全景](modern/evolution.md)
+  * [VLESS 与 XTLS-Reality](modern/reality.md)
+  * [基于 QUIC 的 Hysteria 2 / TUIC](modern/hysteria2-tuic.md)
+  * [现代内核底座与 TUN 模式](modern/core-and-tun.md)
+
 * 阅读须知
   * [4GFW](look/4gfw.md)
   * [注意事项](look/notice.md)
@@ -33,14 +39,14 @@
   * [puffin](browse/puffin.md)
   * [zeronet](browse/zeronet.md)
 
-* VPN软件
-  * [Betternet](vpn/betternet.md)
-  * [典型VPN概览](vpn/classical-vpn.md)
-  * [wireguard](vpn/wireguard.md)
+* VPN软件 (传统/历史)
+  * [Betternet (已淘汰/勿用)](vpn/betternet.md)
+  * [典型VPN概览 (易阻断)](vpn/classical-vpn.md)
+  * [wireguard (原生易阻断)](vpn/wireguard.md)
 
-* 代理工具
-  * [SS/SSR](proxy/ss-ssr.md)
-  * [v2ray](proxy/v2ray.md)
+* 代理工具 (传统/历史)
+  * [SS/SSR (已淘汰/高危封禁)](proxy/ss-ssr.md)
+  * [v2ray (早期VMess方案)](proxy/v2ray.md)
   * [proxifier](proxy/proxifier.md)
   * [privoxy](proxy/privoxy.md)
   * [SSH-Tunnel](proxy/SSH-Tunnel.md)
@@ -50,23 +56,21 @@
   * [网页时光机](web/web-archive.md)
   * [利用个人博客及视频平台](web/use-blog.md)
   * [网页代理的使用](web/web-proxy.md)
-  * [heroku搭建ss服务器](web/ss-4-heroku.md)
-  * [heroku搭建v2ray服务器](web/v2ray-4-heroku.md)
-  * [heroku搭建ss分享站点](web/heroku-deploy.md)
+  * [heroku搭建ss服务器 (已失效)](web/ss-4-heroku.md)
+  * [heroku搭建v2ray服务器 (已失效)](web/v2ray-4-heroku.md)
+  * [heroku搭建ss分享站点 (已失效)](web/heroku-deploy.md)
 
 * ipfs专题
-
   * [ipfs](ipfs/ipfs.md)
   * [ipfs简单使用](ipfs/ipfs-use-naive.md)
   * [对去中心化网络的信仰](ipfs/belief.md)
   * [为什么说去中心化很重要](ipfs/why.md)
 
- 
- * 特别篇
-   * [不止于APN](fkca/apn.md)
-   * [最後のTag](fkca/tag.md)
+* 特别篇
+  * [不止于APN](fkca/apn.md)
+  * [最後のTag](fkca/tag.md)
 
-* 科学普及
+* 科学普及 (经典基础·永远不过时)
   * [软件互联协议](abc/connection.md)
   * [DNS劫持与污染](abc/4dns.md)
   * [数字证书攻防概述](abc/dc_zhenshu.md)
@@ -83,9 +87,9 @@
   * [集群、分布式、负载均衡区别](abc/p7255364.md)
   * [为什么翻了墙，也无法访问某网站？](a123/rst-syscall.md)
 
-* 仅作了解
+* 仅作了解 (历史考古)
   * [accesser](cnnic/no-chn.md)
-  * [goagent](only/goagent.md)
+  * [goagent (已彻底失效)](only/goagent.md)
   * [gatherproxy](only/gatherproxy.md)
   * [CoNET](only/qtgate.md)
   * [brook](only/brook.md)
@@ -108,7 +112,7 @@
   * [初次搭建网站多次失败后的成功记录](fkca/jianzhan.md)
   * [关于目前 GFW(墙) 的封锁方式TCP封锁(阻断)猜想](doub/wkcjzpyd-2.md)
   * [浅谈HTTP劫持、DNS污染的影响及解决办法](doub/6t3mypbm-5.md)
- 
+
 * 此书后记
   * [后记](postscript.md)
 

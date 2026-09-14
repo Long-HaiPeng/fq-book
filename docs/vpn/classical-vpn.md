@@ -1,3 +1,18 @@
+# 典型VPN概览
+
+> [!WARNING]
+> **【历史技术归档 · 极易被阻断】**
+> * **技术现状**：原生 WireGuard、PPTP、L2TP/IPSec 等传统 VPN 协议在直连跨境网络场景下已被 GFW 精准封锁，握手成功率极低。
+> * **为何淘汰与失效（技术根因）**：
+>   1. **无抗审查混淆设计**：WireGuard 和 IPSec 等协议是为**企业内网互联与数据加密**而设计的，完全没有防审查意识。其握手协议格式公开、协议首部固定、包大小（Packet Size）高度固定。
+>   2. **DPI 深度特征匹配**：GFW 骨干网深度包检测设备可以在几微秒内通过特征签名匹配到原生 WireGuard 握手包（Init 包大小固定为 148 字节），并直接丢包阻断。
+> * **权威研究与文献链接**：
+>   * GFW-Report 针对 WireGuard 协议封锁的学术报告：[How China Blocks WireGuard (GFW Report)](https://gfw.report/blog/gfw_wireguard/)
+>   * 社区技术探讨：[V2EX - 关于运营商对 WireGuard / UDP 协议的封锁与 QoS 现状](https://www.v2ex.com/t/790589)
+> * **现代替代方案**：
+>   * 想要实现全局虚拟网卡接管，请阅读本书：[现代内核底座与 TUN 模式](/modern/core-and-tun)
+>   * 若仍想使用 WireGuard，必须在外层包裹混淆层（如 [AmneziaWG](https://github.com/amnezia-vpn/amneziawg-windows) 或 Warp 混淆）。
+
 ## tunsafe
 
 > 使用 [WireGuard](https://zh.wikipedia.org/zh-cn/WireGuard) 协议的高性能且安全的VPN客户端。TunSafe使在Windows和Linux之间设置极其快速且安全的VPN隧道非常简单。 [摘自官网介绍](https://tunsafe.com)。有兴趣的话，可了解下[虚拟网卡 TUN/TAP 驱动程序设计原理 - IBM dev](https://www.ibm.com/developerworks/cn/linux/l-tuntap/index.html)、[TUN与TAP wiki](https://zh.wikipedia.org/zh-hans/TUN%E4%B8%8ETAP)

@@ -1,5 +1,17 @@
 # heroku搭建ss服务器
 
+> [!WARNING]
+> **【历史方案 · 已经永久失效】**
+> * **技术现状**：利用 Heroku 免费 PaaS 平台搭建 Shadowsocks / V2Ray 节点的“白嫖”方案已彻底无法使用。
+> * **失效原因（平台政策与风控）**：
+>   1. **Heroku 彻底取消免费套餐（Free Tier）**：Salesforce / Heroku 官方于 2022 年 11 月 28 日正式关闭了所有免费 Dyno 实例、免费 PostgreSQL 和 Redis 资源，任何应用必须绑定扣费信用卡付费运行。
+>   2. **滥用风控与自动封号**：Heroku 强化了网络流量监控机制，任何运行代理程序（如 shadowsocks-heroku、v2hero）的容器会被平台自动化审计算法判定为违反 ToS（服务条款），并面临即刻封禁账号处置。
+> * **官方公告与新闻链接**：
+>   * Heroku 官方公告：[Heroku's Next Chapter: Focus on Mission-Critical Work (Announcing Deprecation of Free Product Plans)](https://blog.heroku.com/next-chapter)
+>   * TechCrunch 报道：[Heroku to end free tiers, citing fraud and abuse](https://techcrunch.com/2022/08/25/heroku-to-end-free-tiers-citing-fraud-and-abuse/)
+> * **现代自建建议**：
+>   * 如需自建节点，建议选购合规的海外正规 VPS（如搬瓦工、Linode、DigitalOcean、Vultr、AWS Lightsail 等），并配合 [VLESS 与 XTLS-Reality](/modern/reality) 部署。
+
 > **免费配额与限制：**
 > * Network Bandwidth/流量: 2TB/month – Soft
 > * Shared DB processing/并发数: Max 200msec per second CPU time – Soft

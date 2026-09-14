@@ -1,5 +1,17 @@
 # SS/SSR
 
+> [!WARNING]
+> **【历史技术归档 · 已淘汰】**
+> * **技术现状**：原版 Shadowsocks (SS) 及 SSR 对称加密协议在当下抗审查环境中已基本失效，新自建服务器裸跑通常在几小时至数天内即遭封禁。
+> * **为何淘汰与失效（技术根因）**：
+>   1. **高熵特征识别**：正常互联网流量包含大量结构化或半明文报文头，而早期 SS 流量是全密文输出，信息熵（Entropy）极其接近 1.0。GFW 部署的机器学习分类器可根据数据流的字节熵分布轻而易举将其识别为非正常流量。
+>   2. **主动探测（Active Probing）**：GFW 捕获可疑连接后，会向目标服务器伪造发送特定畸变重放包。早期 SS 实现缺乏健壮的重放防御与防探测机制，一旦回包即坐实代理身份并立即拉黑 IP/端口。
+> * **权威研究与文献链接**：
+>   * 顶级安全学术顶会 USENIX Security 论文：[How China Detects and Blocks Shadowsocks (USENIX Security '20)](https://gfw.report/publications/usenixsecurity20/zh/)
+>   * GFW-Report 深度技术复盘：[深入分析中国防火长城对 Shadowsocks 的检测与阻断机制](https://gfw.report/blog/gfw_shadowsocks/)
+> * **现代替代方案与参考**：
+>   * 推荐直接阅读本书新章节：[现代协议演进与抗审查技术](/modern/evolution) 以及 [VLESS 与 XTLS-Reality](/modern/reality)
+>   * 现代核心工具官网：[Sing-box 官方文档](https://sing-box.sagernet.org/) ｜ [Project X / Xray 官方文档](https://xtls.github.io/)
 
 !>  简单来说代理与VPN的最大区别就在于代理不会虚拟一块独立的网卡<br>
   多数免费代理与VPN是严格[NAT类型](/abc/4nat.md)，以限制游戏与下载等操作<br>

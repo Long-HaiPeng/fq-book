@@ -1,5 +1,10 @@
 # heroku搭建v2ray服务器
 
+> [!WARNING]
+> **【历史方案 · 已经永久失效】**
+> * **现状**：Heroku 官方已于 2022 年底废弃所有免费 Dyno 资源，且自动化封杀一切代理模板（包括 v2hero 等一键部署镜像）。
+> * **公告链接**：详见 Heroku 官方公告 [Removal of Heroku Free Plans](https://blog.heroku.com/next-chapter)。新读者请勿尝试此搭建方法，请直接跳过。
+
 !> 由于国家日渐强盛在国际上的地位及影响不断的提升，搭建此服务器存在有很大封禁风险！[参见 issue #63](https://github.com/onplus/v2hero/issues/63)
 
  fork！github项目：
