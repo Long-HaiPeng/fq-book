@@ -1,12 +1,6 @@
 * 关于本书
   * [前言](README.md)
 
-* 现代技术精选 (2022-2025)
-  * [代际演进与对抗全景](modern/evolution.md)
-  * [VLESS 与 XTLS-Reality](modern/reality.md)
-  * [基于 QUIC 的 Hysteria 2 / TUIC](modern/hysteria2-tuic.md)
-  * [现代内核底座与 TUN 模式](modern/core-and-tun.md)
-
 * 阅读须知
   * [4GFW](look/4gfw.md)
   * [注意事项](look/notice.md)
@@ -50,6 +44,12 @@
   * [proxifier](proxy/proxifier.md)
   * [privoxy](proxy/privoxy.md)
   * [SSH-Tunnel](proxy/SSH-Tunnel.md)
+
+* 现代技术精选 (2022-2025 · 主流推荐)
+  * [代际演进与对抗全景](modern/evolution.md)
+  * [VLESS 与 XTLS-Reality](modern/reality.md)
+  * [基于 QUIC 的 Hysteria 2 / TUIC](modern/hysteria2-tuic.md)
+  * [现代内核底座与 TUN 模式](modern/core-and-tun.md)
 
 * 使用网站
   * [搜索站点](web/searchtools.md)
