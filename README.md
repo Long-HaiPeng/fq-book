@@ -19,6 +19,7 @@
 * [导读](docs/README.md)
 * [目录](docs/_sidebar.md)
 * [后记](docs/postscript.md)
+* [维护与贡献指南](MAINTENANCE.md)
 
 ## ***update***
 
