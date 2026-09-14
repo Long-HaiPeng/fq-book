@@ -11,7 +11,7 @@
 >   * CSIRO 与 UC Berkeley 权威论文：[An Analysis of the Privacy and Security Risks of Android VPN Permission-enabled Apps](https://research.csiro.au/ng/wp-content/uploads/sites/106/2016/08/vpn-study.pdf)
 >   * 安全媒体披露：[Wired - Free VPNs Are Selling Your Data](https://www.wired.com/story/free-vpn-data-privacy-risks/)
 > * **现代正规替代方案**：
->   * 个人自建或合规分流网络方案，请直接阅读：[代际演进与对抗全景](/modern/evolution)
+>   * 个人自建或合规分流网络方案，请直接阅读：[现代协议演进与对抗全景](/abc/evolution) 与 [现代客户端配置](/proxy/modern-clients)
 
 !> 再次说明：<br>
 简单来说VPN与代理的最大区别就在于代理不会虚拟一块独立的网卡<br>

@@ -10,7 +10,7 @@
 >   * Heroku 官方公告：[Heroku's Next Chapter: Focus on Mission-Critical Work (Announcing Deprecation of Free Product Plans)](https://blog.heroku.com/next-chapter)
 >   * TechCrunch 报道：[Heroku to end free tiers, citing fraud and abuse](https://techcrunch.com/2022/08/25/heroku-to-end-free-tiers-citing-fraud-and-abuse/)
 > * **现代自建建议**：
->   * 如需自建节点，建议选购合规的海外正规 VPS（如搬瓦工、Linode、DigitalOcean、Vultr、AWS Lightsail 等），并配合 [VLESS 与 XTLS-Reality](/modern/reality) 部署。
+>   * 如需自建节点，建议选购合规的海外正规 VPS（如搬瓦工、Linode、DigitalOcean、Vultr、AWS Lightsail 等），并配合 [现代节点落地指南](/method/modern-method) 与 [VLESS-Reality 原理](/abc/reality) 部署。
 
 > **免费配额与限制：**
 > * Network Bandwidth/流量: 2TB/month – Soft
